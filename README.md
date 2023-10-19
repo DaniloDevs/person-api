@@ -1,6 +1,6 @@
 # Person API
 
-Esta é uma API simples criada usando Node.js e Fastify para lidar com operações CRUD (Create, Read, Update, Delete) para informações de pessoas. A API fornece informações sobre pessoas, incluindo nome, idade, gênero e emprego. Ela pode ser acessada em [https://person-api-whge.onrender.com](https://person-api-whge.onrender.com).
+Esta é uma API simples criada usando Node.js e Fastify para lidar com operações CRUD (Create, Read, Update, Delete) para informações de pessoas. A API fornece informações sobre pessoas, incluindo nome, idade, gênero e emprego. Ela pode ser acessada em [https://person-api-whge.onrender.com/persons](https://person-api-whge.onrender.com/persons).
 
 ## Rotas
 
@@ -28,7 +28,7 @@ Aqui está um exemplo de como usar a API com `javascript`:
 
   ```javascript
    function fetchPersons() {
-    fetch('https://person-api-whge.onrender.com/api/persons')
+    fetch('https://person-api-whge.onrender.com/persons')
       .then(response => response.json())
       .then(data => {
         console.log('Pessoas:', data);
